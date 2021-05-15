@@ -8,7 +8,9 @@
 ```sh
 $ mkdir -p ~/work && mkdir -p ~/.local && cd ~/work && sudo apt-get update && sudo apt-get install -y build-essential git
 
-# setup repo ssh access
+##########################
+# setup github ssh access
+##########################
 
 # copy key on local machine (~/.ssh/id_ed25519)
 # send to vps and save with same name (id_ed25519)
