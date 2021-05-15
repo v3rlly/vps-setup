@@ -1,0 +1,37 @@
+// These settings override both User and Default settings for the Plain text syntax
+{
+	"auto_match_enabled": true,
+
+	"match_brackets": true,
+	"match_brackets_content": true,
+	"match_brackets_square": true,
+	"match_brackets_braces": true,
+	"match_brackets_angle": true,
+
+	"match_tags": false,
+	"match_selection": false,
+
+	"draw_indent_guides": false,
+
+	"show_definitions": false,
+	"tab_completion": false,
+	"auto_complete": false,
+	"auto_complete_size_limit": 10000,
+	"auto_complete_delay": 50,
+
+	"auto_close_tags": false,
+
+	"find_selected_text": false,
+
+	"drag_text": false,
+
+	"scroll_speed": 3.0,
+
+	"tree_animation_enabled": false,
+	"animation_enabled": false,
+
+	"show_encoding": true,
+	"show_line_endings": true,
+
+	"show_git_status": false,
+}
