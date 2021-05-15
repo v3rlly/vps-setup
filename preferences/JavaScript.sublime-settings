@@ -1,4 +1,4 @@
-// These settings override both User and Default settings for the Plain text syntax
+// These settings override both User and Default settings for the Javascript syntax
 {
 	"auto_match_enabled": true,
 
