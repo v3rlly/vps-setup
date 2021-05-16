@@ -1,4 +1,4 @@
-!/usr/bin/bash
+#!/usr/bin/bash
 #
 # Basic configuration for development 
 # author: v3rlly
