@@ -14,10 +14,10 @@ sudo apt-get install -y nodejs
 #
 #   NEW_LOCATION: New global packages folder
 ######################################################
-NEW_LOCATION=".local/lib/node_modules"
+NEW_LOCATION="$HOME/.local"
 
 # Creates new global package folder
-mkdir -p "$HOME/$NEW_LOCATION"
+mkdir -p $NEW_LOCATION
 
 # Change NPM prefix
 npm config set prefix "$HOME/$NEW_LOCATION"
