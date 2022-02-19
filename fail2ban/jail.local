@@ -1,8 +1,0 @@
-# BAN Portscan
-[ufw-port-scan]
-enabled  = true
-ignoreip = 127.0.0.1/8
-filter   = ufw-port-scan
-logpath  = /var/log/ufw.log
-action   = ufw
-maxretry = 5
