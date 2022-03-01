@@ -919,3 +919,7 @@ enabled  = true
 filter   = ufw-port-scan
 logpath  = /var/log/ufw.log
 action   = ufw
+ignoreip = 127.0.0.1/8 ::1
+bantime  = 43800m
+findtime = 60m
+maxretry = 3
