@@ -10,6 +10,9 @@ sudo apt-get update
 sudo apt-get install -y build-essential
 sudo apt-get install -y cmake
 
+# install kernel headers
+sudo apt install linux-headers-$(uname -r)
+
 # Essential
 sudo apt install -y git vim tmux
 sudo apt install -y netcat curl
